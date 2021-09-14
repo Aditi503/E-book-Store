@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="detail.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <a href=""><img src="image/bg5.png"> </a>
+        <div class="nav-links"> 
+            <ul>
+               <i class="fa fa-home"><li><a href="html1.html">HOME</a></li></i>
+               <i class="fa fa-id-card"><li><a href="about%20us.html">ABOUT US</a></li></i> 
+                <i class="fa fa-book"> <li><a href="books.html">CATEGORIES</a></li></i>
+                <i class="fa fa-sign-out"><li><a href="login.html">LOGIN</a></li></i>
+            </ul>
+        </div>
+    </nav>
+	<div class="container">
+		<div class="row">
+		    <div class="column">
+		      <img src="image/horror5.jpg" width="85%" height="70%">
+		    </div>
+		    <div class="column">
+		      <h1>
+		      	The Thing Zero day
+		      </h1>
+		      <h3>
+		      	(Paperback Edition)<br>
+		      	by Lee McGeorge<br>
+		      	<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i><br>
+		      </h3>
+		      <div class="price">
+		      	<h3>save 50%</h3>
+		      </div>
+		      <h5>Rs. 400.00</h5>
+		      <h4><b> <br><br>
+		      	An alien craft has crashed in the Antarctic.
+				A creature has crawled from the wreckage and become frozen in ice.
+				The men of Fafnir Station have transported it back to their base.
+				Some of the men can hear it whispering in their mind.
+				Some are afraid and want to destroy it...
+				...and some will kill to defend it.<br><br>
+
+				In this nerve shredding sci-fi thriller, Lee McGeorge has fused the visceral horror of John Carpenter’s seminal movie with the psychological elements of Campbell’s, Who Goes There?<br><br>
+
+				“Creepy, horrifying and laced with heart-pounding action, this is ‘The Thing’ that fans have waited for.”</br></b><br>
+		      		
+		      </h4>
+		    </div>
+		    <div class="column">
+		    	<h2>Buy the best One Not The Cheaper One</h2>
+		      <form>
+		      	<label for="Condition">Condition</label>
+		        <select id="Condition" name="Condition">
+		          <option value="How many">New</option>
+		        </select>
+		         <label for="Quantity">Quantity</label>
+		        <select id="Quantity" name="Quantity">
+		          <option value="How many">1</option>
+		          <option value="How many">2</option>
+		          <option value="How many">3</option>
+		          <option value="How many">4</option>
+		          <option value="How many">5+</option>
+		        </select>
+		        <br><br>
+		        <center><a href="#" class="hero-btn">Add to Cart<i class="fa fa-shopping-cart"></i></a></center>
+		        <br>
+		        <center><a href="#" class="hero2">Buy it now</a></center>
+		        <br>
+		        <center><a href="#" class="hero3">Add to Wishlist<i class="fa fa-heart-o"></i></a></center>
+		      </form>
+		      <br><br>
+		      <center>
+		      <h2>More Information:</h2><br>
+
+				<h3>Publisher: ATOM BOOKS<br>
+				Language: English<br>
+				Binding: Paperback<br>
+				Pages: 140<br>
+				ISBN: 9780349003634<br><br>
+
+				Related Categories: Available Books Children Collection<br> Children's Fantasy English Books New Releases<br></h3>
+			</center>
+		    </div>
+	  </div>
+    <section class="footer">
+        <h3>Follow Us</h3>
+        <div class="social-link">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i></p>
+    </section>
+    </body>
+</html>
